@@ -766,7 +766,7 @@ let CONFIGURED = !/ВСТАВЬТЕ/.test(firebaseConfig.apiKey + firebaseConfig
 
   /* ---------- chat → Firestore: chats/{sessionId}/messages (onSnapshot) ---------- */
   var log = $("log"), chatInput = $("chatInput"), statusEl = $("chatStatus"), quick = $("quick");
-  var WELCOME = "Привет! Я Артём из поддержки Маховика. Что случилось: баг в игре, проблема с деталью или вопрос по заказу? Переписка сохраняется: можно закрыть страницу и вернуться позже.";
+  var WELCOME = "Not Work";
   var els = {};
   function setStatus(ok, t){ statusEl.textContent = t; statusEl.classList.toggle("off", !ok); }
   function fmt(d){ return ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2); }
